@@ -1,0 +1,53 @@
+<div className="body" id="quartodesafio">
+                  <header className="header">
+                    <div className="headermenu">
+                      <div className="headermenu-netflix">
+                        <img src="./assets/netflix.png" alt="Neflixlogin" className="headermenu-netflix-img"/>
+				              </div>
+                        <nav className="headermenu-opções">
+                          <ul className="headermenu-opções-lista">
+                            <li className="headermenu-opções-lista-isfam">Início</li>
+                            <li className="headermenu-opções-lista-isfam" >Séries</li>
+                            <li className="headermenu-opções-lista-isfam">Filmes</li>
+                            <li className="headermenu-opções-lista-isfam">Adicionados recentemente</li>
+                            <li className="headermenu-opções-lista-isfam">Minha lista</li>
+                          </ul>
+                        </nav>
+                      </div>
+                      <div className="headermenu-bisp">
+                        <div className="headermenu-bisp-busca">
+                          <img src="./assets/search.png" alt="Procurar" className="headermenu-bisp-busca-img"/>
+                          <input type="text" placeholder="Títulos, gente e gêneros" className="headermenu-bisp-buscaInput"/>			
+				                </div>
+                        <div className="headermenu-bisp-i">
+                          <p className="headermenu-bisp-i-img">INFANTIL</p>
+                        </div>
+                        <div className="headermenu-bisp-s">
+                          <img src="./assets/sininho.png" alt="Notificação" className="headermenu-bisp-s-img"/>
+			                	</div>
+                        <div className="headermenu-bisp-p">
+                          <img src="./assets/account.png" alt="Conta" className="headermenu-bisp-p-img"/>
+				                </div>
+                        </div>			
+		                      </header>
+                    <div className="main">
+                        {/* <section className="main-section"> */}
+                        <div className="main-section-films">
+                          <img src="" className="main-section-films-cf"/>
+                            <p className="main-section-films-cf-p"></p>
+                            <button className="main-section-films-cf">&#9658;Assistir</button>
+                            <button className="mainsection-b-minhalista">+ Minha lista</button>
+                            <button className="mainsection-b-mais informações">
+                              <span className="mainsection-b-maisinformações-img">i</span>Mais informações
+					                  </button>
+				                </div>
+			              <div className="main-section-slides">
+                      <h3 className="main-section-slides-films-ml">Minha lista</h3>
+                      <div className="main-section-slides-films-ml-milis">
+                        <img src="./assets/aredesocial.jpg" className="main-section-slides-filmimg"/>
+                        <img src="./assets/billgatesocodigo.jpg" className="main-section-slides-filmimg"/>
+                        <img src="./assets/genioindomavel.webp" className="main-section-slides-filmimg"/>
+                        <img src="./assets/limitless.webp" className="main-section-slides-filmimg"/>
+                        <img src="./assets/tau.webp" className="main-section-slides-filmimg"/>
+                        <p className="main-section-slides-films-ml-milis-seta" onclick="nextslides()">&rsaquo;</p>
+				              </div>
