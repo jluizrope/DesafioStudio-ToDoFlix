@@ -1,23 +1,21 @@
 import React from 'react';
 
-class Modal extends React.Component {
-    render () {
-        return (
-            <div></div>
-        )
-    }
+
+class ExampleApp extends React.Component {
+  constructor () {
+    super();
+    this.state = {
+      showModal: false
+    };
+  }
+  
+  render () {
+    return (
+      <div>
+        <button> </button>        
+        <button> </button>        
+      </div>
+    )
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-export default Modal;
